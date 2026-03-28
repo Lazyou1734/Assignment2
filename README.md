@@ -1,4 +1,3 @@
-readme_md = """
 # PageRank and AI-Driven Web Crawling Strategy
 
 This repository contains the implementation and evaluation of:
