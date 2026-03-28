@@ -1,17 +1,12 @@
-"""
-Utility file containing the corrected README markdown.
-
-Run this script to generate README.md in the current directory.
-"""
-
-README_MD = r"""# PageRank and AI-Driven Web Crawling Strategy
+readme_md = """
+# PageRank and AI-Driven Web Crawling Strategy
 
 This repository contains the implementation and evaluation of:
 
 1. **PageRank computation and validation**
 2. **AI-driven web crawling prioritization strategy**
 
-Both components support large-scale web graph analysis and demonstrate how PageRank can be applied in practical systems such as web crawling for AI data collection.
+Both components are designed to support large-scale web graph analysis and demonstrate how PageRank can be applied in practical systems such as web crawling for AI data collection.
 
 ---
 
@@ -193,8 +188,3 @@ This project shows that:
 
 This makes PageRank a useful foundation for both **web graph analysis** and **practical AI-oriented crawling strategy design**.
 """
-
-if __name__ == "__main__":
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.write(README_MD)
-    print("README.md has been generated.")
